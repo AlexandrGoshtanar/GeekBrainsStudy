@@ -88,7 +88,7 @@ double[] array = new double[5];
 fillArray(array);
 PrintArray(array);
 double max = array[1];
-double min = array[2];
+double min = array[1];
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i] > max) max = array[i];
