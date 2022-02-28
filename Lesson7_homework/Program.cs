@@ -50,3 +50,15 @@ for (int i = 0; i < array.GetLength(0); i++)
     }
 } */
 //Задача 55: Дан целочисленный массив. Найти среднее арифметическое каждого из столбцов.
+/* int[,] array = new int[5, 5];
+fillArray(array);
+PrintArray(array);
+double SredArif = 0;
+for (int i = 0; i < array.GetLength(1); i++)
+{
+    SredArif = (array[0, i] + array[1, i] + array[2, i] + array[3, i] + array[4, i]) / array.GetLength(1);
+    Console.WriteLine($"среднее арифметическое столбца {i + 1} равно: {SredArif} ");
+}
+
+
+ */
